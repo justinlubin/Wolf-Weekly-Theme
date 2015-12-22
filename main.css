@@ -24,8 +24,20 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+p {
+    line-height: 1.4em;
+}
+
 a {
     color: #0B4F8F;
+}
+
+.type-of-day[data-color="blue"] {
+    color: #0B4F8F;
+}
+
+.type-of-day[data-color="red"] {
+    color: #D60F48;
 }
 
 /* - Newspaper - */
@@ -96,6 +108,18 @@ a {
     border-left: 1px solid #CCCCCC;
 }
 
+    /* - Widget: Flip Day - */
+
+    .flip-day-widget .type-of-day {
+        font-size: 2.5em;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .flip-day-widget-bottom {
+        text-align: right;
+    }
+
 /* - Main Content - */
 
 .main-content {
@@ -130,7 +154,7 @@ a {
         }
 
     .article-listing-content p {
-        display: inline-block;
+        display: inline;
     }
 
 /* - Main Footer - */
