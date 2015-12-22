@@ -14,9 +14,18 @@ html, body {
 }
 
 body {
-    background-color: #888888;
+    background-color: #0B4F8F;
     padding: 20px;
     font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 700;
+}
+
+a {
+    color: #0B4F8F;
 }
 
 /* - Newspaper - */
@@ -27,7 +36,8 @@ body {
     min-height: 100%;
     background-color: #FFFFFF;
     margin-bottom: 20px;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 2px 7px -2px #000000;
+    border-radius: 3px;
 }
 
 /* - Main Header - */
@@ -39,15 +49,13 @@ body {
 
     #main-header h1 {
         font-size: 8em;
-        font-family: "Open Sans Condensed", sans-serif;
-        font-weight: 700;
     }
 
 /* - Main Nav - */
 
 #main-nav {
-    border-top: 1px solid #000000;
-    border-bottom: 1px solid #000000;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
 }
 
     #main-nav ul {
@@ -62,7 +70,13 @@ body {
     #main-nav a {
         display: inline-block;
         font-size: 1.5em;
+        text-decoration: none;
+        color: #0B4F8F;
     }
+
+        #main-nav a:hover {
+            text-decoration: underline;
+        }
 
 /* - Content Wrapper - */
 
@@ -79,7 +93,7 @@ body {
     order: 100;
     width: 300px;
     padding: 20px;
-    border-left: 1px solid #000000;
+    border-left: 1px solid #CCCCCC;
 }
 
 /* - Main Content - */
@@ -95,7 +109,7 @@ body {
     align-items: flex-start;
     margin: 20px;
     padding: 20px;
-    border: 1px solid black;
+    border: 1px solid #CCCCCC;
 }
 
 .article-listing-eyecatcher {
@@ -107,8 +121,13 @@ body {
 }
 
     .article-listing-content h2 {
-        font-size: 2em;
+        margin-bottom: 10px;
     }
+
+        .article-listing-content h2 a {
+            color: #D60F48;
+            font-size: 3em;
+        }
 
     .article-listing-content p {
         display: inline-block;
@@ -117,7 +136,7 @@ body {
 /* - Main Footer - */
 
 #main-footer {
-    border-top: 1px solid black;
+    border-top: 1px solid #CCCCCC;
     text-align: center;
     padding: 20px;
 }
