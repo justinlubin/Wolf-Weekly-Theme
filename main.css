@@ -1,0 +1,123 @@
+/* - General - */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #888888;
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* - Newspaper - */
+
+#newspaper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+}
+
+/* - Main Header - */
+
+#main-header {
+    text-align: center;
+    padding: 50px;
+}
+
+    #main-header h1 {
+        font-size: 8em;
+        font-family: "Open Sans Condensed", sans-serif;
+        font-weight: 700;
+    }
+
+/* - Main Nav - */
+
+#main-nav {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+    #main-nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #main-nav li {
+        padding: 20px;
+    }
+
+    #main-nav a {
+        display: inline-block;
+        font-size: 1.5em;
+    }
+
+/* - Content Wrapper - */
+
+#content-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+/* - Main Sidebar - */
+
+#main-sidebar {
+    order: 100;
+    width: 300px;
+    padding: 20px;
+    border-left: 1px solid #000000;
+}
+
+/* - Main Content - */
+
+.main-content {
+    flex: 1;
+}
+
+/* - Article Listing - */
+
+.article-listing {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.article-listing-eyecatcher {
+    margin-right: 20px;
+}
+
+.article-listing-content {
+    flex: 1;
+}
+
+    .article-listing-content h2 {
+        font-size: 2em;
+    }
+
+    .article-listing-content p {
+        display: inline-block;
+    }
+
+/* - Main Footer - */
+
+#main-footer {
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
