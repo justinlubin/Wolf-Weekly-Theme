@@ -108,6 +108,10 @@ a {
     border-left: 1px solid #CCCCCC;
 }
 
+    #main-sidebar > div {
+        margin-bottom: 20px;
+    }
+
     /* - Widget: Flip Day - */
 
     .flip-day-widget .type-of-day {
@@ -118,6 +122,27 @@ a {
 
     .flip-day-widget-bottom {
         text-align: right;
+    }
+
+    /* - Widget: Upcoming Events - */
+
+    .upcoming-events-widget h3 {
+        color: #D60F48;
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    .upcoming-event {
+        padding: 10px;
+        border-top: 6px double #CCCCCC;
+    }
+
+        .upcoming-event h4 {
+            font-size: 1.5em;
+        }
+
+    .upcoming-event:last-of-type {
+        border-bottom: 6px double #CCCCCC;
     }
 
 /* - Main Content - */
