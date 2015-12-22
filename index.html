@@ -10,18 +10,18 @@
     </head>
     <body>
         <div id="newspaper">
-            <header id="main-header">
+            <header id="main-header" class="card">
                 <h1><span style="color:#D60F48;">Wolf</span> <span style="color: #0B4F8F;">Weekly</span></h1>
                 <p>Student run, produced, and published.</p>
             </header>
-            <nav id="main-nav">
+            <nav id="main-nav" class="card">
                 <ul>
                     <li><a href="/">Latest News</a></li>
                     <li><a href="archive.html">Archive</a></li>
                     <li><a href="about-us.html">About Us</a></li>
                 </ul>
             </nav>
-            <div id="content-wrapper">
+            <div id="content-wrapper" class="card">
                 <aside id="main-sidebar">
                     <div class="flip-day-widget">
                         <p class="flip-day-widget-top">It is a</p>
@@ -49,16 +49,18 @@
                 </aside>
                 <section class="main-content" id="articles">
                     <div class="article-listing">
-                        <img class="article-listing-eyecatcher" src="http://placehold.it/200x200" />
+                        <a href="link-to-article" class="article-listing-eyecatcher">
+                            <img src="http://placehold.it/200x200" />
+                        </a>
                         <div class="article-listing-content">
-                            <h2><a href="link-to-article"</a>Headline</a></h2>
+                            <h2><a href="link-to-article"</a>This is a very long headline!! That is ok though.</a></h2>
                             <p>The description goes here. This is the description. It describes the article. It should grab the reader's attention.</p>
                             <a href="link-to-article" class="read-more">Read More &raquo;</a>
                         </div>
                     </div>
                 </section>
             </div>
-            <footer id="main-footer">
+            <footer id="main-footer" class="card">
                 <p>The views and opinions expressed in this publication are solely those of the individual authors and do not necessarily reflect those held by Oxbridge Academy. Wolf Weekly is an independent publication that is student run, produced, and published.</p>
                 <p>Copyright &copy; 2015 Wolf Weekly</p>
             </footer>
